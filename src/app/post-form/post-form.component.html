@@ -1,0 +1,16 @@
+<h1 mat-dialog-title>hey test</h1>
+<div mat-dialog-content>
+    <label for="title">Title
+        <input matInput type="text" [(ngModel)]="title" name="title">
+    </label>
+    
+    <br>
+
+    <label for="thought">thought
+        <input matInput type="text" name="thought" [(ngModel)]="thought">
+    </label>
+</div>
+
+<div mat-dialog-actions>
+    <button mat-button (click)="submit(title, thought)">Submit</button>
+</div>

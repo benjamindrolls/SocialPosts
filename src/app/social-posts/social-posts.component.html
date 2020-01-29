@@ -1,0 +1,10 @@
+<button mat-raised-button (click)="openDialog()" id="btn">New Thought</button>
+<div class="parent-container">
+
+    <div class="post-container">
+        <ng-container *ngFor="let post of posts; let i=index">
+            <app-post [post]="post" (deleted)="deleteItem($event, i)"></app-post>
+        </ng-container>
+    </div>
+
+</div>

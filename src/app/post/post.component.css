@@ -1,0 +1,16 @@
+#content {
+    border-bottom: solid 1px black;
+    margin: 5px;
+    display: flex;
+}
+h3 {
+    margin: 0;
+}
+#thoughts {
+    flex-grow: 1;
+}
+.post-container {
+    width: 50vw;
+    position: relative;
+    left: 12%;
+}

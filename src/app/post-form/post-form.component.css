@@ -1,0 +1,8 @@
+#form {
+    position: absolute;
+    background-color: #B1DDEA;
+}
+
+[hidden] {
+    display: none !important;
+}

@@ -20,24 +20,24 @@ export class SocialPostsComponent implements OnInit{
 
   ngOnInit() {
     this.posts = [{
-      title: "test",
-      thought: "testing out angular"
+      title: "post 1",
+      thought: "Welcome to rolling in my thoughts"
     },
     {
-      title: "test part 5",
-      thought: "even more testing for my posting pleasure"
+      title: "post 2",
+      thought: "its your own personal twitter or blog"
     },
     {
-      title: "test part 33",
-      thought: "even more testing for my posting pleasure"
+      title: "post 3",
+      thought: "press the new thought button enter your title and description and post"
     },
     {
-      title: "test part 5",
-      thought: "even more testing for my posting pleasure"
+      title: "post 4",
+      thought: "use the trash can to delete thoughts"
     },
     {
-      title: "test part 666",
-      thought: "even more testing for my posting pleasure"
+      title: "post 4",
+      thought: "feel free to delete these steps and enjoy!"
     },
   ]
   }
